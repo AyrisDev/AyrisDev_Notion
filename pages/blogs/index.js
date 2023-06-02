@@ -28,8 +28,8 @@ export async function getStaticProps() {
 const blogPage = ({ posts }) => {
   return (
     <Container title={BLOG.newsletter} description={BLOG.description}>
-      <div className=' min-h-screen'>
-        <div className='grid grid-cols-3 gap-4'>
+      <div className=' min-h-screen '>
+        <div className='grid md:grid-cols-3 grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center flex '>
           {posts.map((post) => (
             <BlogPost key={post.id} post={post} />
           ))}

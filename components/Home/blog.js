@@ -9,7 +9,7 @@ import { motion } from 'framer-motion'
 const Blog = ({ blogs }) => {
   return (
     <div className='w-full justify-center flex items-center'>
-      <div className='grid grid-cols-3 mt-[50px] w-full gap-4'>
+      <div className='grid md:grid-cols-3 grid-cols-1 sm:grid-cols-2 mt-[50px] w-full gap-4'>
         {blogs.slice(0, 6).map((blogs) => (
           <div key={blogs.id} className=''>
             <Link href={`/blogs/${blogs.slug}`}>

@@ -30,7 +30,7 @@ const projectPage = ({ posts }) => {
   return (
     <Container title={BLOG.newsletter} description={BLOG.description}>
       <div className=' min-h-screen'>
-        <div className='grid grid-cols-3 gap-4'>
+        <div className='grid md:grid-cols-3 grid-cols-1 sm:grid-cols-2 gap-4'>
           {posts.map((post) => (
             <ProjectPost key={post.id} post={post} />
           ))}

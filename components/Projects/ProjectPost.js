@@ -26,7 +26,7 @@ const ProjectPost = ({ post }) => {
           </motion.div>
 
           <div className=' mt-4 '>
-            <header className='flex justify-between md:flex-col md:items-baseline'>
+            <header className='flex md:justify-between flex-col items-center text-center md:text-left justify-center md:items-baseline'>
               <span className='text-color-fix font-light flex-shrink-0 text-gray-600 dark:text-gray-400'>
                 <FormattedDate date={post.date} />
               </span>

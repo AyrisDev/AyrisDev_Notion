@@ -11,7 +11,7 @@ const Container = ({ children, fullWidth, ...customMeta }) => {
   return (
     <>
       <SEO meta={meta} />
-      <main className='w-full mt-10 ml-10 space-y-4'>{children}</main>
+      <main className='w-full mt-10 space-y-4'>{children}</main>
     </>
   )
 }
