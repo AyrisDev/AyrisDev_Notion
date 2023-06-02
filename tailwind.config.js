@@ -18,6 +18,15 @@ module.exports = {
   },
   theme: {
     extend: {
+      animation: {
+        scroll: 'scroll 40s linear infinite'
+      },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(calc(-250px * 14))' }
+        }
+      },
       colors: {
         day: {
           DEFAULT: BLOG.lightBackground || '#ffffff'

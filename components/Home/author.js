@@ -43,9 +43,21 @@ const author = ({ partners }) => {
           studio
         </h1>
       </div>
-      <div className='h-[120px] flex justify-center items-center relative overflow-hidden'>
-        <Slider partners={partners} />
+      <div className='w-full'>
+        <div className='h-[100px] m-auto overflow-hidden relative w-auto'>
+          <div className='flex w-[calc(350px*14)] animate-scroll items-center mx-auto'>
+            {partners.map((partners) => (
+              <img
+                src={partners?.page_cover}
+                alt={`${partners.title}`}
+                className='w-[350px]'
+              />
+            ))}
+          </div>
+        </div>
       </div>
+      {/* 
+      <Slider partners={partners} /> */}
     </>
   )
 }

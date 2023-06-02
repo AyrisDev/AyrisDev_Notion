@@ -5,7 +5,7 @@ import Pagination from '@/components/Pagination'
 import { getAllPosts, getPostBlocks } from '@/lib/notion'
 import BLOG from '@/blog.config'
 
-import Author from '@/components/Home/Author'
+import Author from '@/components/Home/author'
 import Projects from '@/components/Home/projects'
 import Brand from '@/components/Home/brand'
 import Blog from '@/components/Home/blog'
