@@ -1,5 +1,4 @@
 import Container from '@/components/Container'
-import BlogPost from '@/components/BlogPost'
 import ProjectPost from '@/components/Projects/ProjectPost'
 
 import { getAllPosts, getPostBlocks } from '@/lib/notion'
@@ -8,6 +7,8 @@ import BLOG from '@/blog.config'
 export async function getStaticProps() {
   const posts = await getAllPosts({ onlyProjects: true })
 
+  const heros = await getAllPosts({ onlyHidden: true })
+  const hero = heros.find((t) => t.slug === 'index')
   let blockMap
   try {
     blockMap = await getPostBlocks(hero.id)
