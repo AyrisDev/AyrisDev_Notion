@@ -27,7 +27,7 @@ const projects = ({ projects }) => {
         <div className='grid grid-cols-3 mt-[50px] w-full gap-4'>
           {projects.slice(0, 6).map((projects) => (
             <div key={projects.id} className=''>
-              <Link href={`/projects/${projects.slug}`}>
+              <Link href={`/works/${projects.slug}`}>
                 <motion.div
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
