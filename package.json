@@ -39,6 +39,7 @@
     "react-dom": "^18.2.0",
     "react-notion-x": "^6.16.0",
     "sharp": "^0.30.5",
+    "swiper": "^9.3.2",
     "use-ackee": "^3.0.0"
   },
   "devDependencies": {
@@ -57,5 +58,8 @@
   "bugs": {
     "url": "https://github.com/izuolan/notionic/issues",
     "email": "i@zuolan.me"
+  },
+  "browser": {
+    "child_process": false
   }
 }

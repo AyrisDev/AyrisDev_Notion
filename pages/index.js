@@ -5,11 +5,15 @@ import Pagination from '@/components/Pagination'
 import { getAllPosts, getPostBlocks } from '@/lib/notion'
 import BLOG from '@/blog.config'
 
+import Author from '@/components/Home/Author'
+import Projects from '@/components/Home/projects'
+import Brand from '@/components/Home/brand'
+import Blog from '@/components/Home/blog'
+
 export async function getStaticProps() {
   const posts = await getAllPosts({ onlyPost: true })
-
-  const heros = await getAllPosts({ onlyHidden: true })
-  const hero = heros.find((t) => t.slug === 'index')
+  const projects = await getAllPosts({ onlyProjects: true })
+  const partners = await getAllPosts({ onlyPartners: true })
 
   let blockMap
   try {
@@ -19,28 +23,23 @@ export async function getStaticProps() {
     // return { props: { post: null, blockMap: null } }
   }
 
-  const postsToShow = posts.slice(0, BLOG.postsPerPage)
-  const totalPosts = posts.length
-  const showNext = totalPosts > BLOG.postsPerPage
   return {
     props: {
-      page: 1, // current page is 1
-      postsToShow,
-      showNext,
-      blockMap
+      partners,
+      projects,
+      posts
     },
     revalidate: 1
   }
 }
 
-const blog = ({ postsToShow, page, showNext, blockMap }) => {
+const blog = ({ partners, projects, posts }) => {
   return (
     <Container title={BLOG.title} description={BLOG.description}>
-      <Hero blockMap={blockMap} />
-      {postsToShow.map((post) => (
-        <BlogPost key={post.id} post={post} />
-      ))}
-      {showNext && <Pagination page={page} showNext={showNext} />}
+      <Author partners={partners} />
+      <Projects projects={projects} />
+      <Brand />
+      <Blog blogs={posts} />
     </Container>
   )
 }
