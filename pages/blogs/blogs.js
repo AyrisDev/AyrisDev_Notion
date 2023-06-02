@@ -7,20 +7,9 @@ import BLOG from '@/blog.config'
 export async function getStaticProps() {
   const posts = await getAllPosts({ onlyPost: true })
 
-  const heros = await getAllPosts({ onlyHidden: true })
-  const hero = heros.find((t) => t.slug === 'blogs')
-  let blockMap
-  try {
-    blockMap = await getPostBlocks(hero.id)
-  } catch (err) {
-    console.error(err)
-    // return { props: { post: null, blockMap: null } }
-  }
-
   return {
     props: {
-      posts,
-      blockMap
+      posts
     },
     revalidate: 1
   }
