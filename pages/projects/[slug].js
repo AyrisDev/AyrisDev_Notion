@@ -19,7 +19,7 @@ const Project = ({ post, blockMap }) => {
 }
 
 export async function getStaticPaths() {
-  const posts = await getAllPosts({ onlyProjects: true, onlyNewsletter: false })
+  const posts = await getAllPosts({ onlyProjects: true })
   return {
     paths: posts.map((row) => `/projects/${row.slug}`),
     fallback: true
@@ -27,7 +27,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }) {
-  const posts = await getAllPosts({ onlyProjects: true, onlyNewsletter: false })
+  const posts = await getAllPosts({ onlyProjects: true })
   const post = posts.find((t) => t.slug === slug)
 
   try {

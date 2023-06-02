@@ -6,7 +6,8 @@ import BLOG from '@/blog.config'
 
 export async function getStaticProps() {
   const posts = await getAllPosts({ onlyPost: true })
-  const heros = await getAllPosts({ onlyProjects: true })
+
+  const heros = await getAllPosts({ onlyPost: true })
   const hero = heros.find((t) => t.slug === 'index')
 
   let blockMap
