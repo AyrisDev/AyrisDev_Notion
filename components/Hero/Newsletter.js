@@ -2,15 +2,12 @@ import BLOG from '@/blog.config'
 import Link from 'next/link'
 import Social from '../Common/Social.js'
 import { useState } from 'react'
-import { lang } from '@/lib/lang'
-import { useRouter } from 'next/router'
+
 import { NewspaperIcon, ClipboardCheckIcon } from '@heroicons/react/outline'
 import NotionRenderer from '@/components/Post/NotionRenderer'
 
 const NewsletterHero = ({ blockMap }) => {
   const [showCopied, setShowCopied] = useState(false)
-  const { locale } = useRouter()
-  const t = lang[locale]
 
   const clickCopy = async () => {
     setShowCopied(true)
@@ -32,11 +29,16 @@ const NewsletterHero = ({ blockMap }) => {
           />
           <Social />
           <h2 className='text-xl pt-8 pb-4 font-light text-gray-500 dark:text-day'>
-            {t.HERO.NEWSLETTER.SUBSCRIPTION_HEAD}
+            t.HERO.NEWSLETTER.SUBSCRIPTION_HEAD
           </h2>
 
           <div className='flex flex-col sm:flex-row sm:justify-center gap-4'>
-            <Link passHref href={BLOG.telegramChannelUrl} scroll={false} className='flex'>
+            <Link
+              passHref
+              href={BLOG.telegramChannelUrl}
+              scroll={false}
+              className='flex'
+            >
               <button className='w-full bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 inline-flex py-3 px-5 rounded-lg items-center'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -49,9 +51,11 @@ const NewsletterHero = ({ blockMap }) => {
                 </svg>
                 <span className='ml-4 flex items-start flex-col leading-none'>
                   <span className='text-xs text-gray-600 dark:text-day mb-1'>
-                    {t.HERO.NEWSLETTER.TG_CHANNEL}
+                    t.HERO.NEWSLETTER.TG_CHANNEL
                   </span>
-                  <span className='font-medium'>@{BLOG.telegramChannelName}</span>
+                  <span className='font-medium'>
+                    @{BLOG.telegramChannelName}
+                  </span>
                 </span>
               </button>
             </Link>
@@ -63,9 +67,9 @@ const NewsletterHero = ({ blockMap }) => {
                 <ClipboardCheckIcon className='inline-block text-gray-600 dark:text-day h-7 w-7' />
                 <span className='ml-4 flex items-start flex-col leading-none'>
                   <span className='text-xs text-gray-600 dark:text-day mb-1'>
-                    {t.HERO.RSS_BUTTON_DES_COPIED}
+                    t.HERO.RSS_BUTTON_DES_COPIED
                   </span>
-                  <span className='font-medium'>{t.HERO.RSS_BUTTON_COPIED}</span>
+                  <span className='font-medium'>t.HERO.RSS_BUTTON_COPIED</span>
                 </span>
               </button>
             ) : (
@@ -84,9 +88,11 @@ const NewsletterHero = ({ blockMap }) => {
                 </svg>
                 <span className='ml-4 flex items-start flex-col leading-none'>
                   <span className='text-xs text-gray-600 dark:text-day mb-1'>
-                    {t.HERO.RSS_BUTTON_DES}
+                    t.HERO.RSS_BUTTON_DES
                   </span>
-                  <span className='font-medium'>{t.HERO.NEWSLETTER.RSS_BUTTON}</span>
+                  <span className='font-medium'>
+                    t.HERO.NEWSLETTER.RSS_BUTTON
+                  </span>
                 </span>
               </button>
             )}

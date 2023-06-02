@@ -1,12 +1,8 @@
-import { lang } from '@/lib/lang'
-import { useRouter } from 'next/router'
 import Social from '../Common/Social.js'
 import Avatar from './NotionAvatar.js'
 import NotionRenderer from '@/components/Post/NotionRenderer'
 
 const NoteHero = ({ blockMap }) => {
-  const { locale } = useRouter()
-  const t = lang[locale]
   return (
     <>
       <div className='container mx-auto flex px-5 py-2 mb-10 md:flex-row flex-col items-center'>
@@ -19,7 +15,7 @@ const NoteHero = ({ blockMap }) => {
           />
           <Social />
           <div className='text-gray-400 text-xs font-light py-4'>
-            {t.HERO.NOTES.TEXT_FOOTER}
+            t.HERO.NOTES.TEXT_FOOTER
           </div>
         </div>
         <div className='w-2/5'>

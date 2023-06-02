@@ -1,12 +1,9 @@
 import Link from 'next/link'
 import BLOG from '@/blog.config'
-import { lang } from '@/lib/lang'
-import { useRouter } from 'next/router'
+
 import { ChevronRightIcon, ChevronLeftIcon } from '@heroicons/react/outline'
 
 const Pagination = ({ page, showNext }) => {
-  const { locale } = useRouter()
-  const t = lang[locale]
   const currentPage = +page
   let additionalClassName = 'justify-between'
   if (currentPage === 1 && showNext) additionalClassName = 'justify-end'
@@ -16,7 +13,8 @@ const Pagination = ({ page, showNext }) => {
       className={`flex font-medium text-black dark:text-gray-100 ${additionalClassName}`}
     >
       {currentPage !== 1 && (
-        <Link scroll={false}
+        <Link
+          scroll={false}
           href={
             currentPage - 1 === 1
               ? `${BLOG.path || '/'}`
@@ -24,15 +22,14 @@ const Pagination = ({ page, showNext }) => {
           }
         >
           <button rel='prev' className='block cursor-pointer'>
-            <ChevronLeftIcon className='inline-block mb-1 h-5 w-5' />{' '}
-            {t.PAGINATION.PREV}
+            <ChevronLeftIcon className='inline-block mb-1 h-5 w-5' /> PREV
           </button>
         </Link>
       )}
       {showNext && (
         <Link href={`/page/${currentPage + 1}`} scroll={false}>
           <button rel='next' className='block cursor-pointer'>
-            {t.PAGINATION.NEXT}{' '}
+            NEXT
             <ChevronRightIcon className='inline-block mb-1 h-5 w-5' />
           </button>
         </Link>

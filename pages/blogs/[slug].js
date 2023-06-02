@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 import Loading from '@/components/Loading'
 import NotFound from '@/components/NotFound'
 
-const Blog = ({ post, blockMap }) => {
+const Post = ({ post, blockMap }) => {
   const router = useRouter()
   if (router.isFallback) {
     return <Loading />
@@ -50,4 +50,4 @@ export async function getStaticProps({ params: { slug } }) {
   }
 }
 
-export default Blog
+export default Post
