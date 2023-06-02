@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 import Loading from '@/components/Loading'
 import NotFound from '@/components/NotFound'
 
-const Blog = ({ post, blockMap }) => {
+const Project = ({ post, blockMap }) => {
   const router = useRouter()
   if (router.isFallback) {
     return <Loading />
@@ -19,15 +19,15 @@ const Blog = ({ post, blockMap }) => {
 }
 
 export async function getStaticPaths() {
-  const posts = await getAllPosts({ onlyPost: true })
+  const posts = await getAllPosts({ onlyProjects: true })
   return {
-    paths: posts.map((row) => `/blogs/${row.slug}`),
+    paths: posts.map((row) => `/projects/${row.slug}`),
     fallback: true
   }
 }
 
 export async function getStaticProps({ params: { slug } }) {
-  const posts = await getAllPosts({ onlyPost: true })
+  const posts = await getAllPosts({ onlyProjects: true })
   const post = posts.find((t) => t.slug === slug)
 
   try {
@@ -50,4 +50,4 @@ export async function getStaticProps({ params: { slug } }) {
   }
 }
 
-export default Blog
+export default Project

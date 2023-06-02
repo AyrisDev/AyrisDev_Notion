@@ -92,9 +92,9 @@ const BgImage = () => {
           width='632.375'
           height='596.336'
           filterUnits='userSpaceOnUse'
-          color-interpolation-filters='sRGB'
+          colorInterpolationFilters='sRGB'
         >
-          <feFlood flood-opacity='0' result='BackgroundImageFix' />
+          <feFlood floodOpacity='0' result='BackgroundImageFix' />
           <feColorMatrix
             in='SourceAlpha'
             type='matrix'
@@ -130,9 +130,9 @@ const BgImage = () => {
           width='587.942'
           height='571.786'
           filterUnits='userSpaceOnUse'
-          color-interpolation-filters='sRGB'
+          colorInterpolationFilters='sRGB'
         >
-          <feFlood flood-opacity='0' result='BackgroundImageFix' />
+          <feFlood floodOpacity='0' result='BackgroundImageFix' />
           <feColorMatrix
             in='SourceAlpha'
             type='matrix'
@@ -168,9 +168,9 @@ const BgImage = () => {
           width='538.635'
           height='515.154'
           filterUnits='userSpaceOnUse'
-          color-interpolation-filters='sRGB'
+          colorInterpolationFilters='sRGB'
         >
-          <feFlood flood-opacity='0' result='BackgroundImageFix' />
+          <feFlood floodOpacity='0' result='BackgroundImageFix' />
           <feColorMatrix
             in='SourceAlpha'
             type='matrix'
@@ -206,9 +206,9 @@ const BgImage = () => {
           width='434.573'
           height='419.319'
           filterUnits='userSpaceOnUse'
-          color-interpolation-filters='sRGB'
+          colorInterpolationFilters='sRGB'
         >
-          <feFlood flood-opacity='0' result='BackgroundImageFix' />
+          <feFlood floodOpacity='0' result='BackgroundImageFix' />
           <feColorMatrix
             in='SourceAlpha'
             type='matrix'
@@ -244,9 +244,9 @@ const BgImage = () => {
           width='434.573'
           height='419.319'
           filterUnits='userSpaceOnUse'
-          color-interpolation-filters='sRGB'
+          colorInterpolationFilters='sRGB'
         >
-          <feFlood flood-opacity='0' result='BackgroundImageFix' />
+          <feFlood floodOpacity='0' result='BackgroundImageFix' />
           <feColorMatrix
             in='SourceAlpha'
             type='matrix'
@@ -282,9 +282,9 @@ const BgImage = () => {
           width='434.573'
           height='419.319'
           filterUnits='userSpaceOnUse'
-          color-interpolation-filters='sRGB'
+          colorInterpolationFilters='sRGB'
         >
-          <feFlood flood-opacity='0' result='BackgroundImageFix' />
+          <feFlood floodOpacity='0' result='BackgroundImageFix' />
           <feColorMatrix
             in='SourceAlpha'
             type='matrix'
@@ -320,9 +320,9 @@ const BgImage = () => {
           width='585.279'
           height='558.035'
           filterUnits='userSpaceOnUse'
-          color-interpolation-filters='sRGB'
+          colorInterpolationFilters='sRGB'
         >
-          <feFlood flood-opacity='0' result='BackgroundImageFix' />
+          <feFlood floodOpacity='0' result='BackgroundImageFix' />
           <feColorMatrix
             in='SourceAlpha'
             type='matrix'
@@ -359,8 +359,8 @@ const BgImage = () => {
           y2='819.981'
           gradientUnits='userSpaceOnUse'
         >
-          <stop offset='0.0971766' stop-color='#FFCA9A' />
-          <stop offset='1' stop-color='#FB4444' />
+          <stop offset='0.0971766' stopColor='#FFCA9A' />
+          <stop offset='1' stopColor='#FB4444' />
         </linearGradient>
         <linearGradient
           id='paint1_linear_2_343'
@@ -370,8 +370,8 @@ const BgImage = () => {
           y2='833.443'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stop-color='#9AFF9E' />
-          <stop offset='1' stop-color='#448DFB' />
+          <stop stopColor='#9AFF9E' />
+          <stop offset='1' stopColor='#448DFB' />
         </linearGradient>
         <linearGradient
           id='paint2_linear_2_343'
@@ -381,8 +381,8 @@ const BgImage = () => {
           y2='536.879'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stop-color='#D63447' />
-          <stop offset='1' stop-color='#F57B51' />
+          <stop stopColor='#D63447' />
+          <stop offset='1' stopColor='#F57B51' />
         </linearGradient>
         <linearGradient
           id='paint3_linear_2_343'
@@ -392,8 +392,8 @@ const BgImage = () => {
           y2='490.16'
           gradientUnits='userSpaceOnUse'
         >
-          <stop offset='0.0001' stop-color='#B980F0' />
-          <stop offset='1' stop-color='#FE9898' />
+          <stop offset='0.0001' stopColor='#B980F0' />
+          <stop offset='1' stopColor='#FE9898' />
         </linearGradient>
         <linearGradient
           id='paint4_linear_2_343'
@@ -403,8 +403,8 @@ const BgImage = () => {
           y2='401.223'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stop-color='#FFFFDD' />
-          <stop offset='1' stop-color='#FFD5E5' />
+          <stop stopColor='#FFFFDD' />
+          <stop offset='1' stopColor='#FFD5E5' />
         </linearGradient>
         <linearGradient
           id='paint5_linear_2_343'
@@ -414,8 +414,8 @@ const BgImage = () => {
           y2='752.361'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stop-color='#9ADCFF' />
-          <stop offset='1' stop-color='#E144FB' />
+          <stop stopColor='#9ADCFF' />
+          <stop offset='1' stopColor='#E144FB' />
         </linearGradient>
         <linearGradient
           id='paint6_linear_2_343'
@@ -425,8 +425,8 @@ const BgImage = () => {
           y2='543.373'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stop-color='#D6E5FA' />
-          <stop offset='1' stop-color='#FFF9F9' />
+          <stop stopColor='#D6E5FA' />
+          <stop offset='1' stopColor='#FFF9F9' />
         </linearGradient>
       </defs>
     </svg>

@@ -5,10 +5,10 @@ import { motion } from 'framer-motion'
 
 import FormattedDate from '@/components/Common/FormattedDate'
 
-const BlogPost = ({ post }) => {
+const ProjectPost = ({ post }) => {
   return (
     <motion.div className='relative overflow-hidden h-[300px]'>
-      <Link passHref href={`blogs/${post.slug}`} scroll={false}>
+      <Link passHref href={`projects/${post.slug}`} scroll={false}>
         <article key={post.id} className='  overflow-hidden  cursor-pointer '>
           <motion.div
             initial={{ opacity: 0 }}
@@ -41,4 +41,4 @@ const BlogPost = ({ post }) => {
   )
 }
 
-export default BlogPost
+export default ProjectPost

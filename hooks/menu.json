@@ -6,13 +6,13 @@
   },
   {
     "id": 2,
-    "title": "works",
-    "url": "/works"
+    "title": "projects",
+    "url": "/projects"
   },
   {
     "id": 3,
     "title": "blog",
-    "url": "/blog"
+    "url": "/blogs"
   },
   {
     "id": 4,
