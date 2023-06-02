@@ -48,6 +48,7 @@ const author = ({ partners }) => {
           <div className='flex w-[calc(350px*14)] animate-scroll items-center mx-auto'>
             {partners.map((partners) => (
               <img
+                key={partners.id}
                 src={partners?.page_cover}
                 alt={`${partners.title}`}
                 className='w-[350px]'
