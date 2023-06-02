@@ -38,7 +38,7 @@ const BLOG = {
     keywords: ['Portfolio', 'Zuolan', 'Blog'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
-  notionPageId: '71870d8eaf6d4c5785c07e6a49fe61fc', // DO NOT CHANGE THIS! Edit .env file!
+  notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionSpacesId: process.env.NOTION_SPACES_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
   notionDomain: 'chipped-syringa-233.notion.site',
