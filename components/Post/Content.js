@@ -18,7 +18,7 @@ export default function Content(props) {
         width={500}
         height={500}
         alt={`${frontMatter.title}`}
-        className='  w-full h-[150px]  h-[300px] rounded-lg shadow-lg object-fit mb-4'
+        className='  w-full  h-[300px] rounded-lg shadow-lg object-fit mb-4'
       />
       {pageTitle && (
         <Link

@@ -1,3 +1,4 @@
+'use client'
 import Container from '@/components/Container'
 import ProjectPost from '@/components/Projects/ProjectPost'
 
@@ -7,21 +8,19 @@ import BLOG from '@/blog.config'
 export async function getStaticProps() {
   const posts = await getAllPosts({ onlyProjects: true })
 
-  const heros = await getAllPosts({ onlyProjects: true })
+  const heros = await getAllPosts({ onlyHidden: true })
   const hero = heros.find((t) => t.slug === 'index')
-
   let blockMap
   try {
     blockMap = await getPostBlocks(hero.id)
   } catch (err) {
     console.error(err)
-    return { props: { post: null, blockMap: null } }
+    // return { props: { post: null, blockMap: null } }
   }
 
   return {
     props: {
-      posts,
-      blockMap
+      posts
     },
     revalidate: 1
   }

@@ -18,7 +18,7 @@ export default function Layout({ children }) {
       animate='visible'
       transition={{ duration: 0.5, delay: 0.25 }}
       suppressHydrationWarning={true}
-      className='w-full relative flex justify-center overflow-hidden bg-gradient-to-br from-teal-50 to-red-50 text-[#22242c] relative'
+      className='w-full  flex justify-center overflow-hidden bg-gradient-to-br from-teal-50 to-red-50 text-[#22242c] relative'
     >
       <div className='absolute sm:-top-[580px] -top-[100px]  opacity-60'>
         <BgImage />
