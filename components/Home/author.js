@@ -1,16 +1,9 @@
 'use client'
 import React from 'react'
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react'
-// Import Swiper styles
-import 'swiper/css'
-import 'swiper/css/pagination'
-// import required modules
-import { Autoplay } from 'swiper'
 
 import Image from 'next/image'
 import Avatar from '@/components/image/avatar.png'
-import Slider from '../Slider'
+
 const author = ({ partners }) => {
   return (
     <>
