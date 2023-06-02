@@ -1,0 +1,436 @@
+const BgImage = () => {
+  return (
+    <svg
+      width='1318'
+      height='942'
+      viewBox='0 0 1318 942'
+      fill='none'
+      xmlns='http://www.w3.org/2000/svg'
+    >
+      <g filter='url(#filter0_df_2_343)'>
+        <rect
+          x='203.034'
+          y='382.05'
+          width='323.953'
+          height='266.333'
+          rx='10'
+          transform='rotate(18.7515 203.034 382.05)'
+          fill='url(#paint0_linear_2_343)'
+        />
+      </g>
+      <g filter='url(#filter1_df_2_343)'>
+        <rect
+          x='576.874'
+          y='442.482'
+          width='280.865'
+          height='255.034'
+          rx='10'
+          transform='rotate(18.7515 576.874 442.482)'
+          fill='url(#paint1_linear_2_343)'
+        />
+      </g>
+      <g filter='url(#filter2_df_2_343)'>
+        <rect
+          x='790.293'
+          y='362.371'
+          width='244.959'
+          height='207.417'
+          rx='10'
+          transform='rotate(18.7515 790.293 362.371)'
+          fill='url(#paint2_linear_2_343)'
+        />
+      </g>
+      <g filter='url(#filter3_df_2_343)'>
+        <rect
+          x='966.189'
+          y='325.774'
+          width='159.583'
+          height='135.195'
+          rx='10'
+          transform='rotate(18.7515 966.189 325.774)'
+          fill='url(#paint3_linear_2_343)'
+        />
+      </g>
+      <g filter='url(#filter4_df_2_343)'>
+        <rect
+          x='1085.04'
+          y='256.172'
+          width='159.583'
+          height='135.195'
+          rx='10'
+          transform='rotate(18.7515 1085.04 256.172)'
+          fill='url(#paint4_linear_2_343)'
+        />
+      </g>
+      <g filter='url(#filter5_df_2_343)'>
+        <rect
+          x='920.363'
+          y='535.226'
+          width='159.583'
+          height='135.195'
+          rx='10'
+          transform='rotate(18.7515 920.363 535.226)'
+          fill='url(#paint5_linear_2_343)'
+        />
+      </g>
+      <g filter='url(#filter6_df_2_343)'>
+        <rect
+          x='507.8'
+          y='313.346'
+          width='283.259'
+          height='239.7'
+          rx='10'
+          transform='rotate(18.7515 507.8 313.346)'
+          fill='url(#paint6_linear_2_343)'
+        />
+      </g>
+      <defs>
+        <filter
+          id='filter0_df_2_343'
+          x='-2.58237'
+          y='262.05'
+          width='632.375'
+          height='596.336'
+          filterUnits='userSpaceOnUse'
+          color-interpolation-filters='sRGB'
+        >
+          <feFlood flood-opacity='0' result='BackgroundImageFix' />
+          <feColorMatrix
+            in='SourceAlpha'
+            type='matrix'
+            values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'
+            result='hardAlpha'
+          />
+          <feOffset dy='4' />
+          <feGaussianBlur stdDeviation='10' />
+          <feColorMatrix
+            type='matrix'
+            values='0 0 0 0 0.482353 0 0 0 0 0.380392 0 0 0 0 1 0 0 0 1 0'
+          />
+          <feBlend
+            mode='normal'
+            in2='BackgroundImageFix'
+            result='effect1_dropShadow_2_343'
+          />
+          <feBlend
+            mode='normal'
+            in='SourceGraphic'
+            in2='effect1_dropShadow_2_343'
+            result='shape'
+          />
+          <feGaussianBlur
+            stdDeviation='60'
+            result='effect2_foregroundBlur_2_343'
+          />
+        </filter>
+        <filter
+          id='filter1_df_2_343'
+          x='374.889'
+          y='322.482'
+          width='587.942'
+          height='571.786'
+          filterUnits='userSpaceOnUse'
+          color-interpolation-filters='sRGB'
+        >
+          <feFlood flood-opacity='0' result='BackgroundImageFix' />
+          <feColorMatrix
+            in='SourceAlpha'
+            type='matrix'
+            values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'
+            result='hardAlpha'
+          />
+          <feOffset dy='4' />
+          <feGaussianBlur stdDeviation='10' />
+          <feColorMatrix
+            type='matrix'
+            values='0 0 0 0 0.482353 0 0 0 0 0.380392 0 0 0 0 1 0 0 0 1 0'
+          />
+          <feBlend
+            mode='normal'
+            in2='BackgroundImageFix'
+            result='effect1_dropShadow_2_343'
+          />
+          <feBlend
+            mode='normal'
+            in='SourceGraphic'
+            in2='effect1_dropShadow_2_343'
+            result='shape'
+          />
+          <feGaussianBlur
+            stdDeviation='60'
+            result='effect2_foregroundBlur_2_343'
+          />
+        </filter>
+        <filter
+          id='filter2_df_2_343'
+          x='603.616'
+          y='242.371'
+          width='538.635'
+          height='515.154'
+          filterUnits='userSpaceOnUse'
+          color-interpolation-filters='sRGB'
+        >
+          <feFlood flood-opacity='0' result='BackgroundImageFix' />
+          <feColorMatrix
+            in='SourceAlpha'
+            type='matrix'
+            values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'
+            result='hardAlpha'
+          />
+          <feOffset dy='4' />
+          <feGaussianBlur stdDeviation='10' />
+          <feColorMatrix
+            type='matrix'
+            values='0 0 0 0 0.482353 0 0 0 0 0.380392 0 0 0 0 1 0 0 0 1 0'
+          />
+          <feBlend
+            mode='normal'
+            in2='BackgroundImageFix'
+            result='effect1_dropShadow_2_343'
+          />
+          <feBlend
+            mode='normal'
+            in='SourceGraphic'
+            in2='effect1_dropShadow_2_343'
+            result='shape'
+          />
+          <feGaussianBlur
+            stdDeviation='60'
+            result='effect2_foregroundBlur_2_343'
+          />
+        </filter>
+        <filter
+          id='filter3_df_2_343'
+          x='802.729'
+          y='205.774'
+          width='434.573'
+          height='419.319'
+          filterUnits='userSpaceOnUse'
+          color-interpolation-filters='sRGB'
+        >
+          <feFlood flood-opacity='0' result='BackgroundImageFix' />
+          <feColorMatrix
+            in='SourceAlpha'
+            type='matrix'
+            values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'
+            result='hardAlpha'
+          />
+          <feOffset dy='4' />
+          <feGaussianBlur stdDeviation='10' />
+          <feColorMatrix
+            type='matrix'
+            values='0 0 0 0 0.482353 0 0 0 0 0.380392 0 0 0 0 1 0 0 0 1 0'
+          />
+          <feBlend
+            mode='normal'
+            in2='BackgroundImageFix'
+            result='effect1_dropShadow_2_343'
+          />
+          <feBlend
+            mode='normal'
+            in='SourceGraphic'
+            in2='effect1_dropShadow_2_343'
+            result='shape'
+          />
+          <feGaussianBlur
+            stdDeviation='60'
+            result='effect2_foregroundBlur_2_343'
+          />
+        </filter>
+        <filter
+          id='filter4_df_2_343'
+          x='921.576'
+          y='136.172'
+          width='434.573'
+          height='419.319'
+          filterUnits='userSpaceOnUse'
+          color-interpolation-filters='sRGB'
+        >
+          <feFlood flood-opacity='0' result='BackgroundImageFix' />
+          <feColorMatrix
+            in='SourceAlpha'
+            type='matrix'
+            values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'
+            result='hardAlpha'
+          />
+          <feOffset dy='4' />
+          <feGaussianBlur stdDeviation='10' />
+          <feColorMatrix
+            type='matrix'
+            values='0 0 0 0 0.482353 0 0 0 0 0.380392 0 0 0 0 1 0 0 0 1 0'
+          />
+          <feBlend
+            mode='normal'
+            in2='BackgroundImageFix'
+            result='effect1_dropShadow_2_343'
+          />
+          <feBlend
+            mode='normal'
+            in='SourceGraphic'
+            in2='effect1_dropShadow_2_343'
+            result='shape'
+          />
+          <feGaussianBlur
+            stdDeviation='60'
+            result='effect2_foregroundBlur_2_343'
+          />
+        </filter>
+        <filter
+          id='filter5_df_2_343'
+          x='756.903'
+          y='415.226'
+          width='434.573'
+          height='419.319'
+          filterUnits='userSpaceOnUse'
+          color-interpolation-filters='sRGB'
+        >
+          <feFlood flood-opacity='0' result='BackgroundImageFix' />
+          <feColorMatrix
+            in='SourceAlpha'
+            type='matrix'
+            values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'
+            result='hardAlpha'
+          />
+          <feOffset dy='4' />
+          <feGaussianBlur stdDeviation='10' />
+          <feColorMatrix
+            type='matrix'
+            values='0 0 0 0 0.482353 0 0 0 0 0.380392 0 0 0 0 1 0 0 0 1 0'
+          />
+          <feBlend
+            mode='normal'
+            in2='BackgroundImageFix'
+            result='effect1_dropShadow_2_343'
+          />
+          <feBlend
+            mode='normal'
+            in='SourceGraphic'
+            in2='effect1_dropShadow_2_343'
+            result='shape'
+          />
+          <feGaussianBlur
+            stdDeviation='60'
+            result='effect2_foregroundBlur_2_343'
+          />
+        </filter>
+        <filter
+          id='filter6_df_2_343'
+          x='310.745'
+          y='193.346'
+          width='585.279'
+          height='558.035'
+          filterUnits='userSpaceOnUse'
+          color-interpolation-filters='sRGB'
+        >
+          <feFlood flood-opacity='0' result='BackgroundImageFix' />
+          <feColorMatrix
+            in='SourceAlpha'
+            type='matrix'
+            values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'
+            result='hardAlpha'
+          />
+          <feOffset dy='4' />
+          <feGaussianBlur stdDeviation='10' />
+          <feColorMatrix
+            type='matrix'
+            values='0 0 0 0 0.482353 0 0 0 0 0.380392 0 0 0 0 1 0 0 0 1 0'
+          />
+          <feBlend
+            mode='normal'
+            in2='BackgroundImageFix'
+            result='effect1_dropShadow_2_343'
+          />
+          <feBlend
+            mode='normal'
+            in='SourceGraphic'
+            in2='effect1_dropShadow_2_343'
+            result='shape'
+          />
+          <feGaussianBlur
+            stdDeviation='60'
+            result='effect2_foregroundBlur_2_343'
+          />
+        </filter>
+        <linearGradient
+          id='paint0_linear_2_343'
+          x1='248.388'
+          y1='426.568'
+          x2='628.198'
+          y2='819.981'
+          gradientUnits='userSpaceOnUse'
+        >
+          <stop offset='0.0971766' stop-color='#FFCA9A' />
+          <stop offset='1' stop-color='#FB4444' />
+        </linearGradient>
+        <linearGradient
+          id='paint1_linear_2_343'
+          x1='693.433'
+          y1='442.482'
+          x2='981.215'
+          y2='833.443'
+          gradientUnits='userSpaceOnUse'
+        >
+          <stop stop-color='#9AFF9E' />
+          <stop offset='1' stop-color='#448DFB' />
+        </linearGradient>
+        <linearGradient
+          id='paint2_linear_2_343'
+          x1='682.511'
+          y1='223.072'
+          x2='974.972'
+          y2='536.879'
+          gradientUnits='userSpaceOnUse'
+        >
+          <stop stop-color='#D63447' />
+          <stop offset='1' stop-color='#F57B51' />
+        </linearGradient>
+        <linearGradient
+          id='paint3_linear_2_343'
+          x1='977.36'
+          y1='342.722'
+          x2='1077.86'
+          y2='490.16'
+          gradientUnits='userSpaceOnUse'
+        >
+          <stop offset='0.0001' stop-color='#B980F0' />
+          <stop offset='1' stop-color='#FE9898' />
+        </linearGradient>
+        <linearGradient
+          id='paint4_linear_2_343'
+          x1='1068.28'
+          y1='159.728'
+          x2='1184.52'
+          y2='401.223'
+          gradientUnits='userSpaceOnUse'
+        >
+          <stop stop-color='#FFFFDD' />
+          <stop offset='1' stop-color='#FFD5E5' />
+        </linearGradient>
+        <linearGradient
+          id='paint5_linear_2_343'
+          x1='986.59'
+          y1='535.226'
+          x2='1135.71'
+          y2='752.361'
+          gradientUnits='userSpaceOnUse'
+        >
+          <stop stop-color='#9ADCFF' />
+          <stop offset='1' stop-color='#E144FB' />
+        </linearGradient>
+        <linearGradient
+          id='paint6_linear_2_343'
+          x1='466.727'
+          y1='303.33'
+          x2='793.422'
+          y2='543.373'
+          gradientUnits='userSpaceOnUse'
+        >
+          <stop stop-color='#D6E5FA' />
+          <stop offset='1' stop-color='#FFF9F9' />
+        </linearGradient>
+      </defs>
+    </svg>
+  )
+}
+
+export { BgImage }

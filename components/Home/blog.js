@@ -12,7 +12,7 @@ const Blog = ({ blogs }) => {
       <div className='grid grid-cols-3 mt-[50px] w-full gap-4'>
         {blogs.slice(0, 6).map((blogs) => (
           <div key={blogs.id} className=''>
-            <Link href={`/blog/${blogs.slug}`}>
+            <Link href={`/blogs/${blogs.slug}`}>
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
