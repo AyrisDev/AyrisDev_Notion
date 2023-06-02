@@ -4,13 +4,13 @@ const Slider = ({ partners }) => {
   return (
     <div class='slider'>
       <div class='slide-track'>
-        {partners.map((projects) => (
-          <div class='slide'>
+        {partners.map((partners) => (
+          <div class='slide' key={partners.id}>
             <Image
-              src={projects?.page_cover}
+              src={partners?.page_cover}
               width={500}
               height={500}
-              alt={`${projects.title}`}
+              alt={`${partners.title}`}
               className=' md:h-[200px] w-full h-[150px] rounded-lg shadow-lg object-cover'
             />
           </div>
