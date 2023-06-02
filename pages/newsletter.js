@@ -15,7 +15,7 @@ export async function getStaticProps() {
     blockMap = await getPostBlocks(hero.id)
   } catch (err) {
     console.error(err)
-    // return { props: { post: null, blockMap: null } }
+    return { props: { post: null, blockMap: null } }
   }
 
   return {
