@@ -51,7 +51,10 @@ const projects = ({ services }) => {
                       </div>
                       <div className='absolute left-4 bottom-2'>
                         {service.tags.slice(0, 9).map((tag) => (
-                          <p className='inline-block bg-gray-200 rounded-full px-2 py-1 text-[8px] font-semibold text-gray-700 mr-1 mb-2'>
+                          <p
+                            className='inline-block bg-gray-200 rounded-full px-2 py-1 text-[8px] font-semibold text-gray-700 mr-1 mb-2'
+                            key={tag}
+                          >
                             #{tag}
                           </p>
                         ))}
