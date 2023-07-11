@@ -36,6 +36,7 @@ const author = ({ partners }) => {
           studio
         </h1>
       </div>
+      {/* 
       <div className='w-full'>
         <div className='h-[100px] m-auto overflow-hidden relative w-auto'>
           <div className='flex w-[calc(350px*14)] animate-scroll items-center mx-auto'>
@@ -50,7 +51,7 @@ const author = ({ partners }) => {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
       {/* 
       <Slider partners={partners} /> */}
     </>

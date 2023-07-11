@@ -8,7 +8,7 @@ import Pp from '@/components/image/pp.png'
 
 const Brand = () => {
   return (
-    <div className='mt-4 w-full h-[350px] md:h-[350px] rounded-xl bg-gradient-to-r from-[#FEF7EB] to-[#FCD0A0]/60 grid md:grid-cols-2 grid-cols-1 p-4 justify-center items-center'>
+    <div className='mt-20 w-full h-[350px] md:h-[350px] rounded-xl bg-gradient-to-r from-[#FEF7EB] to-[#FCD0A0]/60 grid md:grid-cols-2 grid-cols-1 p-4 justify-center items-center'>
       <div className='flex flex-col space-y-4'>
         <h1 className='font-bold  text-[30px] bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent'>
           {"  I'm Available For Freelance Work "}

@@ -7,12 +7,13 @@ import Author from '@/components/Home/author'
 import Projects from '@/components/Home/projects'
 import Brand from '@/components/Home/brand'
 import Blog from '@/components/Home/blog'
+import Services from '@/components/Home/services'
 
 export async function getStaticProps() {
   const posts = await getAllPosts({ onlyPost: true })
   const projects = await getAllPosts({ onlyProjects: true })
   const partners = await getAllPosts({ onlyPartners: true })
-
+  const services = await getAllPosts({ onlyServices: true })
   const heros = await getAllPosts({ onlyHidden: true })
   const hero = heros.find((t) => t.slug === 'index')
   let blockMap
@@ -27,19 +28,30 @@ export async function getStaticProps() {
     props: {
       partners,
       projects,
+      services,
       posts
     },
     revalidate: 1
   }
 }
 
-const blog = ({ partners, projects, posts }) => {
+const blog = ({ partners, projects, posts, services }) => {
+  console.log(services)
   return (
     <Container title={BLOG.title} description={BLOG.description}>
       <Author partners={partners} />
-      <Projects projects={projects} />
-      <Brand />
-      <Blog blogs={posts} />
+      <div className='my-10'>
+        {' '}
+        <Services services={services} />
+      </div>
+      <div className='my-10'>
+        <Brand />{' '}
+      </div>
+      <div className='my-10'>
+        <Projects projects={projects} />{' '}
+      </div>
+      {/*
+      <Blog blogs={posts} />  */}
     </Container>
   )
 }

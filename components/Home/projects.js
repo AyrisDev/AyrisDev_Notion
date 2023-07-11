@@ -8,7 +8,7 @@ import { ArrowRight } from '@/components/icons/social'
 
 const projects = ({ projects }) => {
   return (
-    <div className='relative'>
+    <div className='relative my-20'>
       {/*Works Title */}
       <div className='flex justify-between'>
         <h1 className='text-[14px] tracking-wide uppercase font-semibold'>
