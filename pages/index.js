@@ -38,6 +38,7 @@ export async function getStaticProps() {
 }
 
 const blog = ({ partners, projects, posts, services, stacks }) => {
+  console.log(stacks)
   return (
     <Container title={BLOG.title} description={BLOG.description}>
       <Author partners={partners} />
@@ -52,7 +53,7 @@ const blog = ({ partners, projects, posts, services, stacks }) => {
         <Projects projects={projects} />{' '}
       </div>
       <div className='my-10'>
-        <Things stacks={stacks} />{' '}
+        <Things />
       </div>
       {/*
       <Blog blogs={posts} />  */}

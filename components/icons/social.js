@@ -237,7 +237,7 @@ const NextJS = () => {
   return (
     <svg
       aria-label='Next.js logomark'
-      class='next-mark_root__iLw9v'
+      className='next-mark_root__iLw9v'
       height='80'
       role='img'
       viewBox='0 0 180 180'

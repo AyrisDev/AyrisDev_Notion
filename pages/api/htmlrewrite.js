@@ -39,33 +39,33 @@ module.exports = async (req, res) => {
   // console.log('htmlrewrite craftUrl: ', craftUrl)
 
   const bodyStr = `
-  <div class="navigation">
-    <input type="checkbox" class="navigation__checkbox" id="nav-toggle" />
-    <label for="nav-toggle" class="navigation__button">
-      <a aria-label="toggle navigation menu" class="navigation__logo">
-        <img alt="logo" class="logo" src="${siteConfigObj['Site Logo']}" />
+  <div className="navigation">
+    <input type="checkbox" className="navigation__checkbox" id="nav-toggle" />
+    <label for="nav-toggle" className="navigation__button">
+      <a aria-label="toggle navigation menu" className="navigation__logo">
+        <img alt="logo" className="logo" src="${siteConfigObj['Site Logo']}" />
       </a>
     </label>
-    <div class="navigation__background"></div>
+    <div className="navigation__background"></div>
 
-    <p class="navigation__title">${siteConfigObj['Site Name']}</p>
+    <p className="navigation__title">${siteConfigObj['Site Name']}</p>
 
-    <nav class="navigation__nav" role="navigation">
-      <ul class="navigation__list">
-        <li class="navigation__item">
-          <a href="/" class="navigation__link">${siteConfigObj['Home Menu Text']}</a>
+    <nav className="navigation__nav" role="navigation">
+      <ul className="navigation__list">
+        <li className="navigation__item">
+          <a href="/" className="navigation__link">${siteConfigObj['Home Menu Text']}</a>
         </li>
-        <li class="navigation__item">
-          <a href="/notes" class="navigation__link">${siteConfigObj['Archive Menu Text']}</a>
+        <li className="navigation__item">
+          <a href="/notes" className="navigation__link">${siteConfigObj['Archive Menu Text']}</a>
         </li>
-        <li class="navigation__item">
-          <a href="/about" target="_blank" class="navigation__link">${siteConfigObj['About Menu Text']}</a>
+        <li className="navigation__item">
+          <a href="/about" target="_blank" className="navigation__link">${siteConfigObj['About Menu Text']}</a>
         </li>
       </ul>
-      <p class="footer">${siteConfigObj['Footer Text']}</p>
+      <p className="footer">${siteConfigObj['Footer Text']}</p>
     </nav>
 
-    <div class="navigation__icon">
+    <div className="navigation__icon">
       <a target="_blank" href=${siteConfigObj['First Social Link']}>
         <img alt="Telegram" src="${siteConfigObj['First Social Icon']}" />
       </a>

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "title": "NextJs",
+    "summary": "nextjs",
+    "imgLink": "/next.png",
+    "link": "https://nextjs.org/"
+  },
+  {
+    "id": "2",
+    "title": "React",
+    "summary": "react",
+    "imgLink": "/next.png",
+    "link": "https://react.dev/"
+  }
+]
