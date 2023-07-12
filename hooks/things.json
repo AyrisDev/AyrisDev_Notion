@@ -10,7 +10,119 @@
     "id": "2",
     "title": "React",
     "summary": "react",
-    "imgLink": "/next.png",
+    "imgLink": "/react.png",
     "link": "https://react.dev/"
+  },
+  {
+    "id": "3",
+    "title": "PostgresSql",
+    "summary": "pgsql",
+    "imgLink": "/postgres.png",
+    "link": "https://www.postgresql.org/"
+  },
+  {
+    "id": "4",
+    "title": "NodeJS",
+    "summary": "nodejs",
+    "imgLink": "/nodejs.png",
+    "link": "https://www.nodejs.org/"
+  },
+  {
+    "id": "5",
+    "title": "TypeScript",
+    "summary": "typescript",
+    "imgLink": "/ts.png",
+    "link": "https://www.typescriptlang.org/"
+  },
+  {
+    "id": "6",
+    "title": "JavaScript",
+    "summary": "javascript",
+    "imgLink": "/javascript.png",
+    "link": "https://www.javascript.com/"
+  },
+  {
+    "id": "7",
+    "title": "ChatGPT",
+    "summary": "chatgpt",
+    "imgLink": "/chatgpt.png",
+    "link": "https://www.openai.com/"
+  },
+  {
+    "id": "8",
+    "title": "MidJourney",
+    "summary": "midjourney",
+    "imgLink": "/midjourney.jpeg",
+    "link": "https://www.midjourney.com/"
+  },
+  {
+    "id": "9",
+    "title": "VSCode",
+    "summary": "vscode editor",
+    "imgLink": "/vscode.jpeg",
+    "link": "https://code.visualstudio.com/"
+  },
+  {
+    "id": "10",
+    "title": "TailwindCSS",
+    "summary": "tailwindcss",
+    "imgLink": "/tailwindcss.png",
+    "link": "https://tailwindcss.com/"
+  },
+  {
+    "id": "11",
+    "title": "Figma",
+    "summary": "figma",
+    "imgLink": "/figma.png",
+    "link": "https://www.figma.com/"
+  },
+  {
+    "id": "12",
+    "title": "Supabase",
+    "summary": "supabase",
+    "imgLink": "/supabase.jpeg",
+    "link": "https://supabase.com/"
+  },
+  {
+    "id": "13",
+    "title": "Blockscout",
+    "summary": "blockscout",
+    "imgLink": "/blockscout.jpeg",
+    "link": "https://www.blockscout.com/"
+  },
+  {
+    "id": "14",
+    "title": "Hardhat",
+    "summary": "hardhat",
+    "imgLink": "/hardhat.png",
+    "link": "https://hardhat.org/"
+  },
+  {
+    "id": "15",
+    "title": "Thirdweb",
+    "summary": "thirdweb",
+    "imgLink": "/thirdweb.jpeg",
+    "link": "https://hardhat.org/"
+  },
+  {
+    "id": "16",
+    "title": "Moralis",
+    "summary": "moralis",
+    "imgLink": "/moralis.jpeg",
+    "link": "https://moralis.io/"
+  },
+  {
+    "id": "17",
+    "title": "Unity",
+    "summary": "unity",
+    "imgLink": "/unity.png",
+    "link": "https://unity.com/"
+  },
+  {
+    "id": "18",
+    "title": "Unreal Engine",
+    "summary": "unrealengine",
+    "imgLink": "/unreal.png",
+    "link": "https://www.unrealengine.com/"
   }
 ]
