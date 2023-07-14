@@ -21,7 +21,7 @@ const Project = ({ post, blockMap }) => {
 export async function getStaticPaths() {
   const posts = await getAllPosts({ onlyProjects: true })
   return {
-    paths: posts.map((row) => `/works/${row.slug}`),
+    paths: posts.map((row) => `/projects/${row.slug}`),
     fallback: true
   }
 }

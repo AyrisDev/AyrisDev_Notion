@@ -14,7 +14,7 @@ const projects = ({ services }) => {
       <TitleCard titles='Our Services' allTitles='Look All Services' />
 
       {/* Works List*/}
-      <CardSection post={services} />
+      <CardSection post={services} title='services' />
     </div>
   )
 }

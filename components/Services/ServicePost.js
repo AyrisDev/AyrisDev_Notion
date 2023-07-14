@@ -8,7 +8,7 @@ import FormattedDate from '@/components/Common/FormattedDate'
 const ProjectPost = ({ post }) => {
   return (
     <motion.div className='relative overflow-hidden h-[300px]'>
-      <Link passHref href={`projects/${post.slug}`} scroll={false}>
+      <Link passHref href={`services/${post.slug}`} scroll={false}>
         <article key={post.id} className='  overflow-hidden  cursor-pointer '>
           <motion.div
             initial={{ opacity: 0 }}
