@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { ArrowRight } from '@/components/icons/social'
-import CardSection from '../ui/CardSection'
+import CardSection from '../ui/projectCard'
 import TitleCard from '../ui/title'
 const projects = ({ projects, title }) => {
   return (

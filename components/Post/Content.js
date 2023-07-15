@@ -18,8 +18,31 @@ export default function Content(props) {
         width={500}
         height={500}
         alt={`${frontMatter.title}`}
-        className='  w-full  h-[300px] rounded-lg shadow-lg object-cover mb-4'
+        className='  w-full  h-[150px] rounded-lg shadow-lg object-fit mb-4'
       />
+      <div className='w-full border my-4 rounded p-4 flex'>
+        <div className='w-full flex flex-col'>
+          <span className='font-bold text-lg'>
+            {' '}
+            {pageTitle ? pageTitle : frontMatter.title}
+          </span>
+          <div>
+            {' '}
+            {frontMatter.type[0] !== 'Page' && (
+              <nav className='flex mt-5 mb-4 items-start text-black '>
+                <div className='mr-2 mb-4 md:ml-0'></div>
+                {frontMatter.tags && (
+                  <div className='flex flex-nowrap max-w-full overflow-x-auto article-tags'>
+                    {frontMatter.tags.map((tag) => (
+                      <TagItem key={tag} tag={tag} />
+                    ))}
+                  </div>
+                )}
+              </nav>
+            )}
+          </div>
+        </div>
+      </div>
       {pageTitle && (
         <Link
           passHref
@@ -31,21 +54,7 @@ export default function Content(props) {
           <span className='m-1'>{frontMatter.title}</span>
         </Link>
       )}
-      <h1 className='font-bold text-3xl text-black '>
-        {pageTitle ? pageTitle : frontMatter.title}
-      </h1>
-      {frontMatter.type[0] !== 'Page' && (
-        <nav className='flex mt-5 mb-4 items-start text-gray-500 dark:text-gray-400'>
-          <div className='mr-2 mb-4 md:ml-0'></div>
-          {frontMatter.tags && (
-            <div className='flex flex-nowrap max-w-full overflow-x-auto article-tags'>
-              {frontMatter.tags.map((tag) => (
-                <TagItem key={tag} tag={tag} />
-              ))}
-            </div>
-          )}
-        </nav>
-      )}
+
       <div className='-mt-4 relative'>
         <NotionRenderer
           blockMap={blockMap}
