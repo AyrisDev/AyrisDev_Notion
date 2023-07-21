@@ -8,7 +8,7 @@ const Things = () => {
     <div className='relative my-20'>
       <TitleCard titles='Stack' allTitles='Look All' />
 
-      <div className='w-full grid grid-cols-9 mt-4 gap-4 items-center'>
+      <div className='w-full grid grid-cols-4 md:grid-cols-9 mt-4 md:gap-4 gap-0 items-center'>
         {Stacks.map((stacks) => (
           <ToolTip stacks={stacks} key={stacks.id} />
         ))}

@@ -14,14 +14,14 @@ const ServiceCard = ({ service, title }) => {
         >
           <div className='rounded overflow-hidden shadow-lg h-full'>
             <img
-              className='w-full h-[200px]'
+              className='w-full h-[200px] object-fill'
               src={service.page_cover}
               alt='Mountain'
             />
             <div className='h-[200px] relative'>
               <div className='pl-4 pr-2 py-4'>
-                <div className='font-bold text-lg mb-2'>{service.title}</div>
-                <p className='text-gray-700 text-base'>{service.summary}</p>
+                <div className='font-bold  mb-2'>{service.title}</div>
+                <p className='text-gray-700 '>{service.summary}</p>
               </div>
               <div className='absolute left-4 bottom-2'>
                 {service.tags.slice(0, 9).map((tag) => (
