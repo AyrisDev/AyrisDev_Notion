@@ -11,7 +11,11 @@ const projects = ({ services }) => {
   return (
     <div className='relative my-20'>
       {/*Works Title */}
-      <TitleCard titles='Our Services' allTitles='Look All Services' />
+      <TitleCard
+        titles='Our Services'
+        allTitles='Look All Services'
+        link='services'
+      />
 
       {/* Works List*/}
       <CardSection post={services} title='services' />
