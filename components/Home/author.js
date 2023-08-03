@@ -22,9 +22,10 @@ const author = ({ partners }) => {
       </div>
       {/*Author Desc */}
       <div className='text-[20px]'>
-        A design wizard voyaging into the metaverse. I tell the story through my
-        design and illustrations. I spent most of my time designing for brands
-        and creating open-source design resources.
+        One man Agency, building the world one line at a time. We help you build
+        something from nothing. Partnering with projects to help them with their
+        development and design needs to grow together. Full stack, full attack,
+        lets tacke your problems together.
       </div>
       {/*Studio Desc */}
       <div className='flex text-start'>
@@ -36,7 +37,7 @@ const author = ({ partners }) => {
           studio
         </h1>
       </div>
-      {/* 
+      {/*
       <div className='w-full'>
         <div className='h-[100px] m-auto overflow-hidden relative w-auto'>
           <div className='flex w-[calc(350px*14)] animate-scroll items-center mx-auto'>
@@ -52,7 +53,7 @@ const author = ({ partners }) => {
           </div>
         </div>
       </div> */}
-      {/* 
+      {/*
       <Slider partners={partners} /> */}
     </>
   )
