@@ -3,7 +3,7 @@ import { getPageTitle } from 'notion-utils'
 import { motion } from 'framer-motion'
 
 import Container from '@/components/Container'
-import Content from '@/components/projects/Content'
+import Content from '@/components/Projects/Content'
 import Aside from '@/components/Post/Aside'
 import Comments from '@/components/Post/Comments'
 import PostFooter from '@/components/Post/PostFooter'
