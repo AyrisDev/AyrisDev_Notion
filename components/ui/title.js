@@ -1,18 +1,13 @@
 import React from 'react'
 import { ArrowRight } from '@/components/icons/social'
 import Link from 'next/link'
+import { FramerLeft, FramerRight } from '@/components/icons/social'
 const TitleCard = ({ titles, allTitles, link }) => {
   return (
-    <div className='flex justify-between'>
-      <h1 className='text-[24px] tracking-wide uppercase font-semibold'>
-        {titles}
-      </h1>
-      <Link href={link} className='flex flex-row justify-center items-center'>
-        <h1 className='font-semibold bg-gradient-to-r from-sky-400 to-blue-500 bg-clip-text text-transparent text-[12px] tracking-wide '>
-          {allTitles}
-        </h1>
-        <ArrowRight />
-      </Link>
+    <div className='flex justify-center items-center w-full'>
+      <FramerLeft />
+      <h1 className='text-center mx-8 font-semibold text-[20px]'>{titles}</h1>
+      <FramerRight />
     </div>
   )
 }

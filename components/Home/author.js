@@ -3,7 +3,7 @@ import React from 'react'
 
 import Image from 'next/image'
 import Avatar from '@/components/image/avatar.png'
-
+import Link from 'next/link'
 const author = ({ partners }) => {
   return (
     <>
@@ -25,15 +25,17 @@ const author = ({ partners }) => {
         One man Agency, building the world one line at a time. We help you build
         something from nothing. Partnering with projects to help them with their
         development and design needs to grow together. Full stack, full attack,
-        lets tacke your problems together.
+        lets tackle your problems together.
       </div>
       {/*Studio Desc */}
       <div className='flex text-start'>
         <h1 className='text-[18px]'>
           Building what I love at
-          <span className='mx-[4px] bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent space-x-2 font-semibold'>
-            @beastlab
-          </span>
+          <Link href='https://t.me/BeastLab'>
+            <span className='mx-[4px] bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent space-x-2 font-semibold'>
+              @beastlab
+            </span>
+          </Link>
           studio
         </h1>
       </div>

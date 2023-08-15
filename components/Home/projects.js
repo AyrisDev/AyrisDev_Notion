@@ -12,7 +12,7 @@ const projects = ({ projects, title }) => {
     <div className='relative my-20'>
       {/*Works Title */}
 
-      <TitleCard titles='Latest Work' allTitles='All Works' link='projects' />
+      <TitleCard titles='Our Works' allTitles='All Works' link='projects' />
 
       {/* Works List*/}
       <CardSection post={projects} title='projects' />

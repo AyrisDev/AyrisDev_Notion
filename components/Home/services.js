@@ -9,7 +9,7 @@ import TitleCard from '../ui/title'
 import CardSection from '../ui/CardSection'
 const projects = ({ services }) => {
   return (
-    <div className='relative my-20'>
+    <div className='relative mt-10'>
       {/*Works Title */}
       <TitleCard
         titles='Our Services'

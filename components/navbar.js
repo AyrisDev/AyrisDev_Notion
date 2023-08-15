@@ -70,7 +70,7 @@ const Navbar = () => {
       {/*SocialIcons*/}
       <div className='flex justify-end'>
         <div className='flex flex-row space-x-2 '>
-          <Link href='/'>
+          <Link href='https://github.com/AyrisDev'>
             <motion.span
               whileHover={{ scale: 1.2, originX: 0, color: '#f8e112' }}
               transition={{ style: 'spring', stiffness: 300 }}
@@ -78,7 +78,7 @@ const Navbar = () => {
               <Github />
             </motion.span>
           </Link>
-          <Link href='/'>
+          <Link href='https://t.me/BeastLab'>
             <motion.span
               whileHover={{ scale: 1.2, originX: 0, color: '#f8e112' }}
               transition={{ style: 'spring', stiffness: 300 }}

@@ -5,11 +5,6 @@
     "url": "/"
   },
   {
-    "id": 5,
-    "title": "services",
-    "url": "/services"
-  },
-  {
     "id": 2,
     "title": "projects",
     "url": "/projects"
@@ -18,10 +13,5 @@
     "id": 3,
     "title": "blog",
     "url": "/blogs"
-  },
-  {
-    "id": 4,
-    "title": "about",
-    "url": "/about"
   }
 ]

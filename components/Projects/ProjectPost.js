@@ -7,7 +7,7 @@ import FormattedDate from '@/components/Common/FormattedDate'
 
 const ProjectPost = ({ post }) => {
   return (
-    <motion.div className='relative overflow-hidden h-[300px] w-full bg-white rounded-lg gap-4 '>
+    <motion.div className='relative overflow-hidden h-full w-full bg-white rounded-lg gap-4 '>
       <Link passHref href={`projects/${post.slug}`} scroll={false}>
         <article key={post.id} className='  overflow-hidden  cursor-pointer '>
           <motion.div
@@ -21,11 +21,11 @@ const ProjectPost = ({ post }) => {
               height={100}
               alt={`${post.title}`}
               src={post?.page_cover}
-              className=' h-[150px] w-full object-fit inset-0 group-hover:scale-110 transition duration-200'
+              className=' w-full object-fit inset-0 group-hover:scale-110 transition duration-200'
             />
           </motion.div>
 
-          <div className=' mt-4 '>
+          <div className=' my-4 '>
             <header className='flex md:justify-between flex-col items-center text-center md:text-left justify-center md:items-baseline'>
               <span className='text-color-fix font-light flex-shrink-0 text-gray-600 dark:text-gray-400'></span>
               <h2 className='text-lg md:text-xl font-medium  text-black ml-4'>

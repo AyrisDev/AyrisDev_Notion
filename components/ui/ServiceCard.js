@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const ServiceCard = ({ service, title }) => {
   return (
-    <div className='h-[310px]'>
+    <div className='h-[310px] bg-white'>
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
