@@ -18,7 +18,7 @@ const Brand = () => {
           email or tweet.
         </h2>
         <div className='flex flex-row space-x-4 text-[16px] text-[#22242c]/50 font-semibold'>
-          <Link href='#'>
+          <Link href='https://t.me/BeastLab'>
             <motion.div
               className='flex space-x-2'
               whileHover={{ scale: 1.05, originX: 0, color: '#f8e112' }}
@@ -28,7 +28,7 @@ const Brand = () => {
               <span> @beastlab</span>
             </motion.div>
           </Link>
-          <Link href='#'>
+          <Link href='mailto:work@ayris.dev'>
             <motion.div
               className='flex space-x-2'
               whileHover={{ scale: 1.05, originX: 0, color: '#f8e112' }}
