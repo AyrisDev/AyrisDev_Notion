@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const ServiceCard = ({ service, title }) => {
   return (
-    <div className='h-[310px] bg-white'>
+    <div className='lg:h-[310px] bg-white'>
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -13,7 +13,7 @@ const ServiceCard = ({ service, title }) => {
       >
         <div className='rounded overflow-hidden shadow-lg h-full'>
           <img
-            className='w-full h-[150px] object-fill'
+            className='w-full lg:h-[150px] h-[200px] object-fill'
             src={service.page_cover}
             alt='Mountain'
           />

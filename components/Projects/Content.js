@@ -120,7 +120,7 @@ export default function Content(props) {
                 </svg>
                 Preview :
               </span>
-              <Link href={frontMatter.preview}>{frontMatter.preview}</Link>
+              <Link href='/'>{frontMatter.preview}</Link>
             </div>
           </div>
         </div>
@@ -128,7 +128,7 @@ export default function Content(props) {
       {pageTitle && (
         <Link
           passHref
-          href={`${BLOG.path}/${frontMatter.slug}`}
+          href='/'
           scroll={false}
           className='block md:-ml-6 mb-2 text-gray-500 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-300 mt-4'
         >
