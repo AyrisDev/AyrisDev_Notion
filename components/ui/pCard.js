@@ -10,7 +10,8 @@ const ServiceCard = ({ service, title }) => {
       animate={{ opacity: 1 }}
       whileHover={{ scale: 1.05 }}
     >
-      <Link href={`/${title}/${service.slug}`}>
+      <Link href={service.link}>
+        {/*  <Link href={`/${title}/${service.slug}`}> */}
         <motion.div className=''>
           <div className='h-full relative overflow-hidden shadow-lg '>
             <div className='  '>

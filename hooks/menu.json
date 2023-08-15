@@ -4,13 +4,9 @@
     "title": "home",
     "url": "/"
   },
+
   {
     "id": 2,
-    "title": "projects",
-    "url": "/projects"
-  },
-  {
-    "id": 3,
     "title": "blog",
     "url": "/blogs"
   }
